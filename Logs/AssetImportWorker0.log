@@ -1,0 +1,698 @@
+Unity Editor version:    2021.3.13f1 (9e7d58001ecf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/devanshu/My project (3)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60121
+Successfully changed project path to: /Users/devanshu/My project (3)
+/Users/devanshu/My project (3)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 75.40 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.36 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path /Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/devanshu/My project (3)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56098
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/devanshu/Desktop/2021.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001567 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 72.22 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.83 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (271ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (59ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (46ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.90 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (790ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/devanshu/Desktop/2021.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.92 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (124.4 KB). Loaded Objects now: 4129.
+Memory consumption went from 109.7 MB to 109.6 MB.
+Total: 2.765583 ms (FindLiveObjects: 0.195458 ms CreateObjectMapping: 0.058667 ms MarkObjects: 2.380083 ms  DeleteObjects: 0.130208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57391.004461 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(23c64c276d19047768b8f217199c7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(23c64c276d19047768b8f217199c7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a031642f59cfca544ec4c58b7c24abc1') in 1.084215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 622.491717 seconds.
+  path: Assets/pepsi-can
+  artifactKey: Guid(852f5944b855e4896897537234fe6834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi-can using Guid(852f5944b855e4896897537234fe6834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50fe7a5a5ff7b74f85694253829885a') in 0.001883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.954412 seconds.
+  path: Assets/pepsi-can/textures
+  artifactKey: Guid(adade453c2be34b8da3985a6952f3b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi-can/textures using Guid(adade453c2be34b8da3985a6952f3b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ffbc042155a73cc0f03dd0505c2d00') in 0.002064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183362 seconds.
+  path: Assets/pepsi-can/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(d255a8b418afa47eba109ee41d37f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi-can/textures/internal_ground_ao_texture.jpeg using Guid(d255a8b418afa47eba109ee41d37f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b09b461f219fa615165f9e1ed1b90e') in 0.972532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pepsi-can/textures/Pepsi_Can.jpg_specular.jpg
+  artifactKey: Guid(f7767e7215e5c4953a8c500a2645601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi-can/textures/Pepsi_Can.jpg_specular.jpg using Guid(f7767e7215e5c4953a8c500a2645601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda351959bf8d9e85fed785dca8e1d30') in 0.222049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.466561 seconds.
+  path: Assets/pepsi-can/source
+  artifactKey: Guid(6b9754a3bcbf94440b26b05bb579d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi-can/source using Guid(6b9754a3bcbf94440b26b05bb579d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25033002317bb78314292ba4c5a9826') in 0.001081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.083591 seconds.
+  path: Assets/pepsi_can
+  artifactKey: Guid(1c33519a3c9d247f7b652eeff0c03a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can using Guid(1c33519a3c9d247f7b652eeff0c03a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5253fca721759673ec1b9b5d338901') in 0.001882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.074373 seconds.
+  path: Assets/pepsi_can/textures
+  artifactKey: Guid(bcf4d2854bef34d7ea262854bd502322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can/textures using Guid(bcf4d2854bef34d7ea262854bd502322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a50af5354a52e434a160e50c80ece6e') in 0.002399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221476 seconds.
+  path: Assets/pepsi_can/textures/01_-_Default_baseColor.png
+  artifactKey: Guid(922b7d673492645c0bac4c4ef9af9ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can/textures/01_-_Default_baseColor.png using Guid(922b7d673492645c0bac4c4ef9af9ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5188e3c8b9c047b231173ecbe781e0c3') in 0.380415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.322491 seconds.
+  path: Assets/pepsi_can/scene.gltf
+  artifactKey: Guid(8bb4fd951e8f34abe843f9b54f8449b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can/scene.gltf using Guid(8bb4fd951e8f34abe843f9b54f8449b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f431b94ff4d7704b7ef6fc5d384a7434') in 0.036618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.255783 seconds.
+  path: Assets/pepsi_can/scene.bin
+  artifactKey: Guid(69f717e3705ed48c8bf303fa0136f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can/scene.bin using Guid(69f717e3705ed48c8bf303fa0136f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9093c3ad25ba41a969a239e89d8843d') in 0.052727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.729746 seconds.
+  path: Assets/pepsi_can/license.txt
+  artifactKey: Guid(9c7065865ed5c4628817205488e8d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pepsi_can/license.txt using Guid(9c7065865ed5c4628817205488e8d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c444dd6bbd819da95db17d99a27ff433') in 1.185446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 348.243610 seconds.
+  path: Assets/retro-pepsi-can
+  artifactKey: Guid(4056aaefbcb3640b1a152845fa9741be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can using Guid(4056aaefbcb3640b1a152845fa9741be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc95f1d0a12fd480eed4083f38d321c') in 0.002638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.337694 seconds.
+  path: Assets/retro-pepsi-can/source
+  artifactKey: Guid(48860974cb68e4ea8ab4c82e57e64c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/source using Guid(48860974cb68e4ea8ab4c82e57e64c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2efa6eaacf22e051e2f392e08002875') in 0.003609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176733 seconds.
+  path: Assets/retro-pepsi-can/source/can_1.obj
+  artifactKey: Guid(3f2dbb0c24e704ed79d422a797876215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/source/can_1.obj using Guid(3f2dbb0c24e704ed79d422a797876215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf193014a778ece96dca59da2c7a144') in 1.118207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.814799 seconds.
+  path: Assets/retro-pepsi-can/textures
+  artifactKey: Guid(45fd5e8ee1e404df6b7e38f1aac88734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures using Guid(45fd5e8ee1e404df6b7e38f1aac88734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015496d725aedcefca84c6a174fb51a6') in 0.001087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173750 seconds.
+  path: Assets/retro-pepsi-can/textures/can_1_blinn1SG_BaseColor.png
+  artifactKey: Guid(d165e2c326fd447e2bc8da8ba293eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures/can_1_blinn1SG_BaseColor.png using Guid(d165e2c326fd447e2bc8da8ba293eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac3d60e75c21323876ef7c3034a7e6d') in 0.010685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/retro-pepsi-can/textures/can_1_blinn2SG_BaseColor.png
+  artifactKey: Guid(78f80b95a72364117ba569b987432756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures/can_1_blinn2SG_BaseColor.png using Guid(78f80b95a72364117ba569b987432756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471f7272045a36b6efaf6ac378ab0d46') in 0.007938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/retro-pepsi-can/textures/can_1_blinn2SG_Metallic.png
+  artifactKey: Guid(3704d368f8e67466889157a6a86b1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures/can_1_blinn2SG_Metallic.png using Guid(3704d368f8e67466889157a6a86b1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4942e8de2f24e9e1390c8f1ed1ab9d') in 0.006806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/retro-pepsi-can/textures/can_1_blinn2SG_Normal.png
+  artifactKey: Guid(c243f60a747b84914bc4698822f68336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures/can_1_blinn2SG_Normal.png using Guid(c243f60a747b84914bc4698822f68336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b26f82fd3a1d9e83bca7ced380903') in 0.008612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/retro-pepsi-can/textures/can_1_blinn1SG_Normal.png
+  artifactKey: Guid(9d730d97ba66f4dbf8a53340f371fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/retro-pepsi-can/textures/can_1_blinn1SG_Normal.png using Guid(9d730d97ba66f4dbf8a53340f371fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2193b8fd5ebe8c52b5a056780cafb4') in 0.008114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003170 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x284f5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.85 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (738ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (671ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.85 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (140.0 KB). Loaded Objects now: 4178.
+Memory consumption went from 0.73 GB to 0.73 GB.
+Total: 2.716375 ms (FindLiveObjects: 0.125792 ms CreateObjectMapping: 0.046791 ms MarkObjects: 2.238417 ms  DeleteObjects: 0.304750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003618 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17b4cb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.82 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.94 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (104.1 KB). Loaded Objects now: 4181.
+Memory consumption went from 0.73 GB to 0.73 GB.
+Total: 2.816208 ms (FindLiveObjects: 0.178833 ms CreateObjectMapping: 0.051750 ms MarkObjects: 2.453500 ms  DeleteObjects: 0.131500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003334 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17b4cb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 3.32 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (645ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.88 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (104.2 KB). Loaded Objects now: 4184.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 2.604917 ms (FindLiveObjects: 0.179292 ms CreateObjectMapping: 0.066208 ms MarkObjects: 2.256042 ms  DeleteObjects: 0.102917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003407 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17b4cb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/devanshu/My project (3)/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.80 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (741ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (675ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.83 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (104.1 KB). Loaded Objects now: 4187.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 2.448416 ms (FindLiveObjects: 0.138875 ms CreateObjectMapping: 0.057625 ms MarkObjects: 2.177666 ms  DeleteObjects: 0.073709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
